@@ -4,10 +4,11 @@
 
 ## Project Overview
 
-This project presents an end-to-end marketing analytics solution designed to measure the effectiveness of promotional campaigns across various product categories, customer segments, and regions. It uses a comprehensive, business-like dataset (10,000+ rows) to simulate real-world promotional activities over a 12-month period and analyzes the return on investment (ROI), sales lift, discount impact, and customer behavior.
+This project presents an end-to-end marketing analytics solution designed to measure the effectiveness of promotional campaigns across various product categories, customer segments, and regions. It uses a comprehensive, business-like dataset (10,000+ rows) to simulate real-world promotional activities over a 12-month period and analyzes the return on investment (ROI), sales lift, discount impact, and customer behavior.The final dashboard was built in Google Looker Studio and integrates insights from Excel-based data modeling   
 
-The final dashboard was built in Google Looker Studio and integrates insights from Excel-based data modeling
+## The Business Problem
 
+Our marketing team regularly runs promotions — from discounts to flash sales — but there's been no structured way to measure which campaigns actually drive results. We needed a clear answer: "Which promos worked best, and were they worth the cost, which country should we increase promotional investment and what month of the year is best for promotion?"
 
 ## Project Objectives
 
@@ -16,6 +17,9 @@ The final dashboard was built in Google Looker Studio and integrates insights fr
 - Measure sales lift before, during, and after promotions
 - Visualize performance across regions, sales channels, and customer types
 - Present clear insights and business recommendations
+- 
+## veiw live dashboard
+https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af
 
 ## Tools used and their purpose
 
@@ -54,31 +58,31 @@ The final dashboard was built in Google Looker Studio and integrates insights fr
 
 ## Dashboard Features
 
-The Looker Studio dashboard includes:
+** The Looker Studio dashboard includes:**
 
-🔹 KPI Scorecards: Revenue, net revenue, Promo Cost, ROI, sales volumn
+- KPI Scorecards: Revenue, net revenue, Promo Cost, ROI, sales volumn
+- ROI by Promo Type: Bar chart comparing efficiency
+- Sales Volume by Product Category
+- Promo Phase Impact: Revenue before, during, after
+- Sales Lift Charts: Measures increase due to promo
+- ROI Over Time: Trend across the year
+- ROI by Country/Region: Geographic breakdowm
+- Customer Segmentation Filters: Age group, gender, type
+- Sales Channel Comparison: Online vs In-Store
 
-🔹 ROI by Promo Type: Bar chart comparing efficiency
+## Key Insights
 
-🔹 Sales Volume by Product Category
+10% OFF delivered the highest ROI (~600%), but also had the lowest sales volume
 
-🔹 Promo Phase Impact: Revenue before, during, after
+20% OFF had strong ROI and moderate volume — a balanced promo
 
-🔹 Sales Lift Charts: Measures increase due to promo
+After-promo phase saw higher sales than “During”, indicating a delayed promo response
 
-🔹 ROI Over Time: Trend across the year
+Hair Care & Fragrance categories performed best under promotions
 
-🔹 ROI by Country/Region: Geographic breakdown
+Certain regions had high ROI but low volume — opportunity for scaling
 
-🔹 Customer Segmentation Filters: Age group, gender, type
-
-🔹 Sales Channel Comparison: Online vs In-Store
-
-
-
----
-
-💡 Key Insights
+Key Insights
 
 10% OFF delivered the highest ROI (~600%), but also had the lowest sales volume
 
@@ -94,63 +98,36 @@ Certain regions had high ROI but low volume — opportunity for scaling
 
 ---
 
-🧠 How I Told This Story (Optional Narration)
+🕵️‍♀️ Insights & Recommendations
 
-🎯 The Business Problem
+🔹 1. Invest More in High-ROI Countries
 
-> Our marketing team regularly runs promotions — from discounts to flash sales — but there's been no structured way to measure which campaigns actually drive results. We needed a clear answer: "Which promos worked best, and were they worth the cost?"
+Countries such as [insert top country from your dashboard] delivered strong ROI despite lower volume. These regions are ideal for increased promotional budget allocation to test for higher market response.
 
+🔹 2. Rethink Low-Volume High-ROI Strategies
 
+10% OFF promotions yielded excellent ROI but reached fewer customers. These promos are cost-efficient but may need stronger marketing or bundling to scale.
 
-🧾 The Dataset
+🔹 3. Maximize the “After” Phase Effect
 
-> I worked with a realistic dataset of 10,000+ records, simulating 12 months of activity with variables like customer segmentation, promo type, revenue, and region.
+Significant revenue was recorded in the post-promo period, suggesting that customers often buy after the official promo ends. This supports running post-promo reminders or limited-time extensions.
 
+🔹 4. Double Down on Top Product Categories
 
+Categories like Hair Care responded especially well to promos. Focusing campaigns on these categories can drive higher ROI with less experimentation.
 
-📊 The Dashboard
+🔹 5. Flash Sale = Best of Both Worlds
 
-> Built in Looker Studio, it includes KPIs, charts, filters, and calculated fields to analyze ROI, sales lift, and promo performance over time.
+Flash Sale promos showed strong ROI and moderate volume. This balance makes them ideal for wide campaigns where both profit and engagement matter.
 
+🔹 6. Use Data to Refine Strategy
 
+Rather than applying a uniform promo strategy, results show the need to tailor promos by region, customer segment, and product type.
 
-🔍 Discoveries
+## Business Impact
+This dashboard empowers the team to allocate budgets better, prioritize high-performing promotions, and target the right products and segments. It turns raw data into actionable marketing decisions.
 
-10% OFF = Highest ROI, lowest volume → profitable but niche
-
-Flash Sale = Good balance between cost and engagement
-
-After-phase = Shows strong post-promo performance
-
-Hair Care = Most promo-responsive category
-
-Some regions = High ROI but low volume → expansion potential
-
-
-✅ Business Impact
-
-Grace Sunday, [25/06/2025 22:03]
-> This dashboard empowers the team to allocate budgets better, prioritize high-performing promotions, and target the right products and segments. It turns raw data into actionable marketing decisions.
-
-
-
-
----
-
-📎 Conclusion
+## Conclusion
 
 This project showcases both technical skill and business thinking — from preparing data in Excel, to modeling ROI and sales lift, to building a clean dashboard in Looker Studio, and finally to communicating results through meaningful insights.
-
 Perfect for marketers, analysts, and decision-makers who want to measure the real impact of their campaigns.
-
-
-
-✅ Your README is ready! It includes:
-
-A professional project overview
-
-Tools, dataset, formulas, and dashboard features
-
-Key insights and business value
-
-A full storytelling script as an optional “How I Told This Story” section
