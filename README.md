@@ -1,7 +1,28 @@
 # Promo Impact Dashboard: Measuring Promotion Effectiveness
 
-## Table of content
 
+# 📊 Promo Impact Dashboard: Measuring Promotion Effectiveness
+
+![Promo Dashboard](dashboard-overview.png)
+
+🎯 [Click here to view the full interactive dashboard](https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af)
+
+## Table of content
+- [Project Overview](#project-overview)
+- [The Business Problem](#the-business-problem)
+- [Why This Project Matters](#why-this-project-matters)
+- [Project Objectives](#project-objectives)
+- [Tools and Technologies ](#tools-and-technologies)
+- [Dataset Description](#dataset-description)
+- [Metrics calculated in Excel](#metrics-calculated-in-excel)
+- [ Metrics calculated on looker Studio ](#metrics-calculated-on-looker-Studio)
+- [Dashboard Features](#dashboard-features)
+- [Key Insights](#key-insights)
+- [Recommendations](#recommendations)
+- [Business Impact](#business-impact)
+- [Conclusion](#conclusion)
+- [Contact](#contact)
+ 
 ## Project Overview
 
 This project presents an end-to-end marketing analytics solution designed to measure the effectiveness of promotional campaigns across various product categories, customer segments, and regions. It uses a comprehensive, business-like dataset (10,000+ rows) to simulate real-world promotional activities over a 12-month period and analyzes the return on investment (ROI), sales lift, discount impact, and customer behavior.The final dashboard was built in Google Looker Studio and integrates insights from Excel-based data modeling   
@@ -10,6 +31,14 @@ This project presents an end-to-end marketing analytics solution designed to mea
 
 Our marketing team regularly runs promotions — from discounts to flash sales — but there's been no structured way to measure which campaigns actually drive results. We needed a clear answer: "Which promos worked best, and were they worth the cost, which country should we increase promotional investment and what month of the year is best for promotion?"
 
+
+## 🌟 Why This Project Matters
+
+Promotions are a major part of marketing budgets, but without proper analysis, companies can’t tell which campaigns are truly profitable. This project helps bridge that gap by using data to measure the real return on investment (ROI) and sales lift of different promotions across product categories, regions, and customer types.
+
+By visualizing promo performance, this dashboard supports smarter decision-making — helping marketing and operations teams invest where it matters most.
+
+
 ## Project Objectives
 
 - Track and compare ROI of different promotions types
@@ -17,11 +46,11 @@ Our marketing team regularly runs promotions — from discounts to flash sales �
 - Measure sales lift before, during, and after promotions
 - Visualize performance across regions, sales channels, and customer types
 - Present clear insights and business recommendations
-- 
-## veiw live dashboard
+
+## Veiw live dashboard
 https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af
 
-## Tools used and their purpose
+## Tools and Technologies
 
 - Excel Data preparation, cleaning, and metric creation
 - Google Sheets Hosting dataset for Looker Studio integration
@@ -42,92 +71,83 @@ https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af
 - Sales Rep ID, Inventory Level
 
 
-## Metrics calculated in Excel and their formula
+## Metrics calculated in Excel
+
 - Revenue = Unit Price × Units sold
 - Discount % = discount/100
 - Discounted Revenue = Revenue × (1 - discount %)
 - Promo cost = Unit Price × Units sold × discount %
 
-
-## Metrics calculated in looker Studio
+## Metrics calculated on looker Studio
 
 - ROI = (Discounted Revenue - Promo Cost) / Promo Cost
 - Sales Lift = Units During - Units Before
 - Net Revenue = Discounted Revenue - Promo Cost
 
 
-## Dashboard Features
+## The Looker Studio Dashboard Features
 
-** The Looker Studio dashboard includes:**
-
-- KPI Scorecards: Revenue, net revenue, Promo Cost, ROI, sales volumn
+- KPI Scorecards: Net revenue, Promo Cost, ROI, sales volumn
 - ROI by Promo Type: Bar chart comparing efficiency
-- Sales Volume by Product Category
-- Promo Phase Impact: Revenue before, during, after
-- Sales Lift Charts: Measures increase due to promo
+- Sales Volume and ROI by Product Category
 - ROI Over Time: Trend across the year
-- ROI by Country/Region: Geographic breakdowm
-- Customer Segmentation Filters: Age group, gender, type
-- Sales Channel Comparison: Online vs In-Store
+- Distribution of ROI by Promo Cost
+- ROI by Country: Geographic breakdowm
+- Insights
 
 ## Key Insights
 
-10% OFF delivered the highest ROI (~600%), but also had the lowest sales volume
+- 10% OFF delivered the highest ROI (~600%), but also had the lowest sales volume
 
-20% OFF had strong ROI and moderate volume — a balanced promo
+- 20% OFF had strong ROI and highest volume — a balanced promo
 
-After-promo phase saw higher sales than “During”, indicating a delayed promo response
+- Skin Care categories performed best under promotions with higest ROI and sales volumn
 
-Hair Care & Fragrance categories performed best under promotions
+- Certain regions had high ROI but low volume — opportunity for scaling
 
-Certain regions had high ROI but low volume — opportunity for scaling
+- ROI peaked in January, April and October, showing strong promotional efficiency. ROI dropped to 0% in November and December, likely due to no campaign activity.
+  Overall, ROI varied across months, suggesting that not all promos yielded strong returns and highlighting the need to identify what worked best in high-performing periods and implementing it 
 
-Key Insights
+**✅ Recommendations**
 
-10% OFF delivered the highest ROI (~600%), but also had the lowest sales volume
+1. **Reconsider Low-Volume High-ROI Strategies**
 
-Flash Sale had strong ROI and moderate volume — a balanced promo
+10% OFF promotions yielded excellent ROI but reached fewer customers. These promos are cost-efficient but may need stronger and wider marketing to scale.
 
-After-promo phase saw higher sales than “During”, indicating a delayed promo response
+2. **20% OFF = Best of Both Worlds**
 
-Hair Care & Fragrance categories performed best under promotions
+20% OFF promos showed strong ROI and highest volume. This balance makes them ideal for wide campaigns where both profit and engagement matter.
 
-Certain regions had high ROI but low volume — opportunity for scaling
+3. **Double Down on Top Product Categories**
+   
+Categories like Skin Care responded very well to promos. Focusing campaigns on these categories can drive higher return on investment.
 
+4. **Invest More in High-ROI Countries**
+   
+Countries such as (Brazil and Canada) are ideal for increased promotional budget allocation to get higher return on investment.
 
+5. **Seasonal Strategy**
+   
+Future promotional campaigns should be strategically scheduled around January, April and October, as these periods delivered the highest ROI. Focus on replicating successful strategies used during these months to maximize efficiency and returns.
 
----
-
-🕵️‍♀️ Insights & Recommendations
-
-🔹 1. Invest More in High-ROI Countries
-
-Countries such as [insert top country from your dashboard] delivered strong ROI despite lower volume. These regions are ideal for increased promotional budget allocation to test for higher market response.
-
-🔹 2. Rethink Low-Volume High-ROI Strategies
-
-10% OFF promotions yielded excellent ROI but reached fewer customers. These promos are cost-efficient but may need stronger marketing or bundling to scale.
-
-🔹 3. Maximize the “After” Phase Effect
-
-Significant revenue was recorded in the post-promo period, suggesting that customers often buy after the official promo ends. This supports running post-promo reminders or limited-time extensions.
-
-🔹 4. Double Down on Top Product Categories
-
-Categories like Hair Care responded especially well to promos. Focusing campaigns on these categories can drive higher ROI with less experimentation.
-
-🔹 5. Flash Sale = Best of Both Worlds
-
-Flash Sale promos showed strong ROI and moderate volume. This balance makes them ideal for wide campaigns where both profit and engagement matter.
-
-🔹 6. Use Data to Refine Strategy
-
-Rather than applying a uniform promo strategy, results show the need to tailor promos by region, customer segment, and product type.
 
 ## Business Impact
-This dashboard empowers the team to allocate budgets better, prioritize high-performing promotions, and target the right products and segments. It turns raw data into actionable marketing decisions.
+This dashboard empowered the team to allocate budgets better, prioritize high-performing promotions, and target the right products. It turned raw data into actionable marketing decisions.
 
 ## Conclusion
 
 This project showcases both technical skill and business thinking — from preparing data in Excel, to modeling ROI and sales lift, to building a clean dashboard in Looker Studio, and finally to communicating results through meaningful insights.
 Perfect for marketers, analysts, and decision-makers who want to measure the real impact of their campaigns.
+
+## ⚠️ Limitations
+
+This project is based on a synthetic dataset. While the structure reflects real-world promotional scenarios, some results may not fully reflect real business conditions. These limitations were noted during analysis and offer opportunities for further refinement in future iterations.
+
+## Contact
+Grace Sunday
+
+[LinkedIn](https://www.linkedin.com/in/grace-sunday-b2b0622a6)
+
+gracesunday16@gmail.com
+
+
