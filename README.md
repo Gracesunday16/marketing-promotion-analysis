@@ -1,7 +1,4 @@
-# Promo Impact Dashboard: Measuring Promotion Effectiveness
-
-
-# 📊 Promo Impact Dashboard: Measuring Promotion Effectiveness
+# 📊 Promo Impact Dashboard: Measuring Promotion Effectiveness using Excel and Looker studio
 
 ![Promo Dashboard](dashboard-overview.png)
 
@@ -15,7 +12,7 @@
 - [Tools and Technologies ](#tools-and-technologies)
 - [Dataset Description](#dataset-description)
 - [Metrics calculated in Excel](#metrics-calculated-in-excel)
-- [ Metrics calculated on looker Studio ](#metrics-calculated-on-looker-Studio)
+- [ Metrics calculated on looker Studio ](#metrics-calculated-on-looker-studio)
 - [Dashboard Features](#dashboard-features)
 - [Key Insights](#key-insights)
 - [Recommendations](#recommendations)
@@ -47,9 +44,7 @@ By visualizing promo performance, this dashboard supports smarter decision-makin
 - Visualize performance across regions, sales channels, and customer types
 - Present clear insights and business recommendations
 
-## Veiw live dashboard
-https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af
-
+  
 ## Tools and Technologies
 
 - Excel Data preparation, cleaning, and metric creation
@@ -72,6 +67,7 @@ https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af
 
 
 ## Metrics calculated in Excel
+I calculated the following metrics on Excel
 
 - Revenue = Unit Price × Units sold
 - Discount % = discount/100
@@ -79,9 +75,8 @@ https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af
 - Promo cost = Unit Price × Units sold × discount %
 
 ## Metrics calculated on looker Studio
-
+The following KPI's were calculated on looker studio
 - ROI = (Discounted Revenue - Promo Cost) / Promo Cost
-- Sales Lift = Units During - Units Before
 - Net Revenue = Discounted Revenue - Promo Cost
 
 
@@ -110,23 +105,23 @@ https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af
 
 **✅ Recommendations**
 
-1. **Reconsider Low-Volume High-ROI Strategies**
+**1. Reconsider Low-Volume High-ROI Strategies**
 
 10% OFF promotions yielded excellent ROI but reached fewer customers. These promos are cost-efficient but may need stronger and wider marketing to scale.
 
-2. **20% OFF = Best of Both Worlds**
+**2. 20% OFF = Best of Both Worlds**
 
 20% OFF promos showed strong ROI and highest volume. This balance makes them ideal for wide campaigns where both profit and engagement matter.
 
-3. **Double Down on Top Product Categories**
+**3. Double Down on Top Product Categories**
    
 Categories like Skin Care responded very well to promos. Focusing campaigns on these categories can drive higher return on investment.
 
-4. **Invest More in High-ROI Countries**
+**4. Invest More in High-ROI Countries**
    
 Countries such as (Brazil and Canada) are ideal for increased promotional budget allocation to get higher return on investment.
 
-5. **Seasonal Strategy**
+**5. Seasonal Strategy**
    
 Future promotional campaigns should be strategically scheduled around January, April and October, as these periods delivered the highest ROI. Focus on replicating successful strategies used during these months to maximize efficiency and returns.
 
