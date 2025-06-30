@@ -1,6 +1,6 @@
 # 📊 Promo Impact Dashboard: Measuring Promotion Effectiveness using Excel and Looker studio
 
-![Promo Dashboard](dashboard-overview.png)
+![Promo Dashboard](https://github.com/Gracesunday16/marketing-promotion-analysis/blob/ce49f442dbeadcb9f23733870a9da486a26e945d/promo%20effectivness%20dashboard.PNG)
 
 🎯 [Click here to view the full interactive dashboard](https://lookerstudio.google.com/reporting/0023ec68-fadd-40c0-97a6-084b0cb528af)
 
@@ -74,6 +74,7 @@ I calculated the following metrics on Excel
 - Discounted Revenue = Revenue × (1 - discount %)
 - Promo cost = Unit Price × Units sold × discount %
 
+![Excel worksheeet](https://github.com/Gracesunday16/marketing-promotion-analysis/blob/ce49f442dbeadcb9f23733870a9da486a26e945d/Excel%20worksheet.png)
 ## Metrics calculated on looker Studio
 The following KPI's were calculated on looker studio
 - ROI = (Discounted Revenue - Promo Cost) / Promo Cost
@@ -138,7 +139,7 @@ Perfect for marketers, analysts, and decision-makers who want to measure the rea
 
 This project is based on a synthetic dataset. While the structure reflects real-world promotional scenarios, some results may not fully reflect real business conditions. These limitations were noted during analysis and offer opportunities for further refinement in future iterations.
 
-## Contact
+## Contact me
 Grace Sunday
 
 [LinkedIn](https://www.linkedin.com/in/grace-sunday-b2b0622a6)
